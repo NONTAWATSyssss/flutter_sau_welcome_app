@@ -1,4 +1,5 @@
 import 'package:flutter_sau_welcome_app/views/home_ui.dart';
+import 'package:flutter_sau_welcome_app/views/password_change_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:material_ui/material_ui.dart';
 
@@ -20,7 +21,7 @@ class _FlutterSauWelcomeAppState extends State<FlutterSauWelcomeApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomeUI(),
+      home: const PasswordchangeUi(),
       theme: ThemeData(
         textTheme: GoogleFonts.urbanistTextTheme(
           Theme.of(context).textTheme,
